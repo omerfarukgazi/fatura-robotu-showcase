@@ -24,7 +24,7 @@ flowchart LR
     C -->|one printable page| E[Invoices go into parcels]
     B -->|delivered / returned| C
     C -->|"SMS code → batch sign<br/>(delivered only)"| D
-    C -->|delete draft<br/>(returned only)| D
+    C -->|delete draft for returns| D
 ```
 
 1. The seller calls the customer and tags the confirmed order `onaylandi` in Shopify.
